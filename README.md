@@ -1,4 +1,7 @@
 # Leetcode-October-Challenge
 
+## Solution Repository for Leetcode Daily Challenges - October Edition
+
 ### Problem Set
-    * 1) Number of Recent Calls
+
+* 01) Number of Recent Calls
