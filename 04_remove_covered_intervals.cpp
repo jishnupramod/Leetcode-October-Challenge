@@ -59,3 +59,24 @@ public:
     }
 };
 
+
+// In the inner while loop, the first element comparison can be avoided since the intervals vector is already sorted.
+class Solution {
+public:
+    int removeCoveredIntervals(vector<vector<int>>& intervals) {
+        int n = intervals.size();
+        sort(intervals.begin(), intervals.end(), [&](vector<int> a, vector<int> b) {
+            return a[0] < b[0] or (a[0] == b[0] and a[1] > b[1]);
+        });
+        int i = 0, covers = 0;
+        while (i < n) {
+            int j = i+1;
+            while (j < n and intervals[i][1] >= intervals[j][1]) 
+                ++j;
+            i = j;
+            ++covers;
+        }
+        return covers;
+    }
+};
+
