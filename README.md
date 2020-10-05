@@ -8,3 +8,4 @@
 * 02) Combination Sum
 * 03) K-diff Pairs in an Array
 * 04) Remove Covered Intervals
+* 05) Complement of Base 10 Integer
