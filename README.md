@@ -10,3 +10,4 @@
 * 04) Remove Covered Intervals
 * 05) Complement of Base 10 Integer
 * 06) Insert into a BST
+* 07) Rotate List
