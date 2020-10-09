@@ -11,3 +11,5 @@
 * 05) Complement of Base 10 Integer
 * 06) Insert into a BST
 * 07) Rotate List
+* 08) Binary Search
+* 09) Serialize and Deserialize BST
