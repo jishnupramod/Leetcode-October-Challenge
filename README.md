@@ -21,3 +21,5 @@
 * 15) Rotate Array
 * 16) Search a 2D Matrix
 * 17) Repeated DNA sequences
+* 18) < Best Time to Buy and Sell Stock IV >
+* 19) Minimum Domino Rotations For Equal Row
