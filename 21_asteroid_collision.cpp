@@ -72,3 +72,33 @@ public:
     }
 };
 
+
+
+// Using Stack
+class Solution {
+public:
+    vector<int> asteroidCollision(vector<int>& asteroids) {
+        stack<int> ast;
+        for (int i : asteroids) {
+            while (!ast.empty() and i < 0 and ast.top() > 0 and ast.top() < abs(i))
+                ast.pop();
+            if (!ast.empty() and i < 0 and ast.top() == abs(i)) {
+                ast.pop();
+                continue;
+            }
+            if (i > 0 or ast.empty() or ast.top() < 0)
+                ast.push(i);
+        }
+        vector<int> finalAst;
+        while (!ast.empty()) {
+            finalAst.push_back(ast.top());
+            ast.pop();
+        }
+        reverse(finalAst.begin(), finalAst.end());
+        return finalAst;
+    }
+};
+
+
+
+
