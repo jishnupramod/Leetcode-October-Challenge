@@ -23,3 +23,4 @@
 * 17) Repeated DNA sequences
 * 18) < Best Time to Buy and Sell Stock IV >
 * 19) Minimum Domino Rotations For Equal Row
+* 20) Asteroid Collision
