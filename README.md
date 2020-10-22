@@ -24,3 +24,4 @@
 * 18) < Best Time to Buy and Sell Stock IV >
 * 19) Minimum Domino Rotations For Equal Row
 * 20) Asteroid Collision
+* 21) Minimum Depth of Binary Tree
