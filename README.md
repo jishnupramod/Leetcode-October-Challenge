@@ -26,3 +26,5 @@
 * 20) Clone Graph
 * 21) Asteroid Collision
 * 22) Minimum Depth of Binary Tree
+* 23) < 132 Pattern >
+* 24) Bag of Tokens
