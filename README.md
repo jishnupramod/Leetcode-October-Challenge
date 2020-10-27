@@ -28,3 +28,6 @@
 * 22) Minimum Depth of Binary Tree
 * 23) < 132 Pattern >
 * 24) Bag of Tokens
+* 25) Stone Game IV
+* 26) Champagne Tower
+* 27) Linked List Cycle II
