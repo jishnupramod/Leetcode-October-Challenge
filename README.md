@@ -31,3 +31,4 @@
 * 25) Stone Game IV
 * 26) Champagne Tower
 * 27) Linked List Cycle II
+* 28) Summary Ranges
