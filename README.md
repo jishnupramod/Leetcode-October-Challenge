@@ -32,3 +32,4 @@
 * 26) Champagne Tower
 * 27) Linked List Cycle II
 * 28) Summary Ranges
+* 29) Maximize Distance to Closest Person
